@@ -1,6 +1,5 @@
 from typing import List #導入Typing函式庫中的List
 
-
 def countLetters(sentence: str) -> List[int]: #定義一個計算字母出現次數的自訂函數
     letterCount: List[int] = [0] * 26 #創立一個長度26的列表，用來儲存每個字母的次數[a-z]
 
